@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/nav_ordenes"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/nav_facturas"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/app_name" />
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="@string/app_name">
+            <menu>
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:icon="@android:drawable/ic_menu_camera"
+                    android:title="@string/com_facebook_loading" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
